@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: stg_abbonamenti
+  - name: stg_coupon
+  - name: stg_metodi
+  - name: stg_ordini
+  - name: stg_piani
+  - name: stg_rinnovi
+  - name: stg_transazioni
+  - name: stg_utenti

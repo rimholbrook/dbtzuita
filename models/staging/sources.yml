@@ -1,0 +1,14 @@
+sources:
+    - name: pay
+      description: This is a replica of the Postgres database used by our app
+      database: eco-rune-459817-m9
+      schema: raw_pay
+      tables:
+          - name: abbonamenti
+          - name: coupon
+          - name: metodi
+          - name: ordini
+          - name: piani
+          - name: transazioni
+          - name: utenti
+          - name: rinnovi
