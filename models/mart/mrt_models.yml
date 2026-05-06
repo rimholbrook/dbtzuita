@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: dim_coupon
+  - name: dim_metodi
+  - name: dim_piani
+  - name: dim_utenti
+  - name: fct_ordini
+    columns:
+      - name: id_utente
+        data_tests:
+        - unique
+        - not_null
+      - name: id_piano
+        data_tests: 
+        - not_null
+      - name: id_coupon
+        data_tests:
+        - not_null
+      - name: id_metodo
+        data_tests: 
+        - not_null
